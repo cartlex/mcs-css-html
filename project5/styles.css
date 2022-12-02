@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    padding: 50px;
+    background-color: #ffffff;
+    color: red;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+/* .brand {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
+
+.link-1 {
+    display: flex;
+    position: absolute;
+    left: 950px;
+    top: 50px;
+}
+
+.link-2 {
+    display: flex;
+    position: absolute;
+    left: 1105px;
+    top: 50px;
+}
+
+.link-3 {
+    display: flex;
+    position: absolute;
+    left: 1260px;
+    top: 50px;
+}
+
+
+.links p {
+    width: 140px;
+}
+
+.picture {
+    display: flex;
+    background-image: url(pr5_Images/evian_origins_logo.svg);
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-space {
+    height: 150px;
+}
+
+.main-info {
+    height: 1979px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 200px 0 200px;
+}
+
+.bottle-name {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 216px 150px 216px;
+}
+
+.bottle-name p {
+    width: 248px;
+    text-align: center;
+}
+
+.text-box {
+    /* display: flex; */
+    font-size: 25px;
+    border: 3px solid #f8bfc7;
+    border-radius: 20px;
+    text-align: left;
+    align-content: space-between;
+    padding: 24px;
+    margin: 0 199px 0 201px;
+    letter-spacing: 5%;
+    width: 1040px;
+    line-height: 29px;
+
+}
+
+.info {
+    display: flex;
+    color: red;
+    /* font-family: Arial; */
+    font-size: 100px;
+    position: absolute;
+
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.bottle {
+    display: flex;
+    margin: 6px 80px;
+}
+
+.text-down {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #f8bfc7;
+    padding: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
