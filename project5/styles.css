@@ -21,13 +21,6 @@ body {
     font-size: 50px;
 }
 
-/* .brand {
-    display: flex;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-} */
-
 .link-1 {
     display: flex;
     position: absolute;
@@ -91,7 +84,6 @@ body {
 }
 
 .text-box {
-    /* display: flex; */
     font-size: 25px;
     border: 3px solid #f8bfc7;
     border-radius: 20px;
@@ -108,7 +100,6 @@ body {
 .info {
     display: flex;
     color: red;
-    /* font-family: Arial; */
     font-size: 100px;
     position: absolute;
 
