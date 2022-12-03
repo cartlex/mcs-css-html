@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-.body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
+body {
+    font-family: Helvetica;
 }
 
 .top {
@@ -18,7 +16,6 @@
     background-color: rgba(249, 222, 211, 0.82);
     font-size: 50px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* border: 1px solid #555252; */
 }
 
@@ -28,13 +25,12 @@
     align-items: center;
     background-color: #f89710bc;
     height: 600px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .topic-name {
     padding: 15px 25px;
     margin: 40px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #292727;
     width: 340px;
     height: 450px;
 }
@@ -43,13 +39,13 @@
     font-size: 26px;
     padding-bottom: 5px;
     font-weight: bold;
-    text-align: flex-start;
+    text-align: center;
 }
 
 .topic-1,
 .topic-2,
 .topic-3 {
-    font-style: normal;
+    font-style: italic;
     font-size: 16px;
 }
 
@@ -60,5 +56,4 @@
     height: 80px;
     background-color: rgba(240, 238, 237, 0.404);
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
