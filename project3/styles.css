@@ -13,7 +13,6 @@
 
 .header {
     display: flex;
-    /* background-color: rgb(97, 111, 111); */
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -27,10 +26,9 @@
     background: url(images/21b086ce89154e7a7a6292751302504d.jpeg);
     background-repeat: no-repeat;
     justify-content: center;
-    margin: 20px;
     background-size: cover;
     align-items: center;
-    height: 700px;
+    height: 1000px;
 }
 
 .info {
